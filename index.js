@@ -228,4 +228,7 @@ client.on('interactionCreate', async interaction => {
   }
 });
 
-client.login('process.env.TOKEN');
+// === DEBUG DYAL TOKEN ===
+console.log('TOKEN kayna?',!!process.env.TOKEN);
+console.log('Tool dyal TOKEN:', process.env.TOKEN?.length);
+client.login(process.env.TOKEN);
