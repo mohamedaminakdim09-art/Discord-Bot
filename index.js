@@ -5,7 +5,7 @@ const app = express();
 
 // HADI HYA LI ZDTLIK - CORS M3A LINK DIALK
 app.use(cors({
-  origin: ['https://oaminnox-dev.netlify.app', 'http://localhost:5500']
+  origin: ['https://oaminnox-zone.netlify.app', 'http://localhost:5500']
 }));
 app.use(express.json());
 
