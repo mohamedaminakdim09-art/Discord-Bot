@@ -48,7 +48,7 @@ client.on('messageCreate', message => {
   if (message.content === '!getcode') {
     const code = Math.random().toString(36).substring(2, 8).toUpperCase();
     codes.push(code);
-    message.author.send(`**🔑 Code dialk:** \`${code}\`\n**Sali7 l:** 10 min\n\nSir l site: https://oaminnox-dev.netlify.app/`).catch(() => {
+    message.author.send(`**🔑 Code dialk:** \`${code}\`\n**Sali7 l:** 10 min\n\nSir l site: https://oaminnox-zone.netlify.app/`).catch(() => {
       message.reply('❌ 7l DM dialk a bro');
     });
     message.reply('✅ Sifft lik code f DM');
