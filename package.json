@@ -4,8 +4,7 @@
   "description": "Advanced Discord Management & Protection Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "deploy": "node deploy-commands.js"
+    "start": "node deploy-commands.js && node index.js"
   },
   "engines": {
     "node": "18.x"
