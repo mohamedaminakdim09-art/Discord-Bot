@@ -1,12 +1,26 @@
 {
   "name": "advanced-discord-bot",
   "version": "1.0.0",
+  "description": "Advanced Discord Management & Protection Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.5"
-  }
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "moderation",
+    "anti-nuke",
+    "ticket"
+  ],
+  "author": "Akdim",
+  "license": "MIT"
 }
